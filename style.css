@@ -1,0 +1,51 @@
+body {
+    background-image: url('./pink.png.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    border: solid;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#paragraph {
+    font-size: x-large;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.nameEnter {
+    text-align: center;
+    position: relative; /* Make the container relative */
+}
+
+#provideResult {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.Para {
+    text-align: center;
+    border: 5px solid;
+    width: 40%;
+    position: relative;
+    left: 450px;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+    opacity: 0.3; /* Adjust opacity value as needed */
+    z-index: -1; /* Ensure the image is behind other elements */
+}
